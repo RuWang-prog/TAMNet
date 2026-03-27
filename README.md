@@ -12,8 +12,9 @@ We propose a triple adaptive multiplexing network (TAMNet) for wide-area infrare
 3. We propose local saliency module (LSM) as a replacement for the skip connections (SK) to handle complex background variations by explicitly modeling multi-scale context to implicitly derive stable targetbackground relationships.<br>
 # Commands
 ## Commands for training
-Run 'trainVMDNAL.py' to perform network training in single GPU and multiple GPUs.<br> 
-Checkpoints and Logs will be saved to ./log/, and the ./log/ has the following structure:<br> 
+Run `trainVMDNAL.py` to perform network training in single GPU and multiple GPUs.<br> 
+```markdown
+Checkpoints and Logs will be saved to `./log/`, and the `./log/` has the following structure:<br> 
 ├──./log/<br> 
 │    ├── PRCV2024<br> 
 │    │    ├── VMDNAL_eopch400.pth.tar<br> 
