@@ -13,8 +13,8 @@ We propose a triple adaptive multiplexing network (TAMNet) for wide-area infrare
 # Commands
 ## Commands for training
 Run `trainVMDNAL.py` to perform network training in single GPU and multiple GPUs.<br> 
+Checkpoints and Logs will be saved to `./log/`, and the `./log/` has the following structure:<br>
 ```markdown
-Checkpoints and Logs will be saved to `./log/`, and the `./log/` has the following structure:<br> 
 ├──./log/<br> 
 │    ├── PRCV2024<br> 
 │    │    ├── VMDNAL_eopch400.pth.tar<br> 
