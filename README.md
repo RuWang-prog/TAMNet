@@ -16,9 +16,10 @@ Run `trainVMDNAL.py` to perform network training in single GPU and multiple GPUs
 
 Checkpoints and Logs will be saved to `./log/`, and the `./log/` has the following structure:
 
-├──tree ./log/<br> 
-│    ├── PRCV2024<br> 
-│    │    ├── VMDNAL_eopch400.pth.tar<br>
+├──./log/
+│    ├── PRCV2024 
+│    │    ├── VMDNAL_eopch400.pth.tar
+```
 # Recources
 The pre-trained models can be downlaod via [Baidu Drive](https://pan.baidu.com/s/1tVihrj5e50SbhtHITsiCSg?pwd=8mj5) (key:8mj5).
 
