@@ -31,5 +31,5 @@ Network predictions will be saved to `./results/` that has the following structu
 │    │   │    ├── XXX.png
 ```
 # Recources
-The pre-trained models can be downlaod via [Baidu Drive](https://pan.baidu.com/s/1tVihrj5e50SbhtHITsiCSg?pwd=8mj5) (key:8mj5) and One Drive(https://1drv.ms/u/c/be18513de13ace81/IQBNdZohOEbfRLdhKKlfwNydAXqD5jp_dWpUDKYk-bpsE4A?e=ZXsliw).
+The pre-trained models can be downlaod via [Baidu Drive](https://pan.baidu.com/s/1tVihrj5e50SbhtHITsiCSg?pwd=8mj5) (key:8mj5) and [One Drive](https://1drv.ms/u/c/be18513de13ace81/IQBNdZohOEbfRLdhKKlfwNydAXqD5jp_dWpUDKYk-bpsE4A?e=ZXsliw).
 
