@@ -11,7 +11,7 @@ We propose a triple adaptive multiplexing network (TAMNet) for wide-area infrare
 2. We propose a novel attention-decoupled parallel attention residual block (PARB) module that adaptively integrates multi-branch features to maximally preserve and reinforce subtle features while effectively mitigating cross-domain feature distortion induced by attention mechanisms.<br>
 3. We propose local saliency module (LSM) as a replacement for the skip connections (SK) to handle complex background variations by explicitly modeling multi-scale context to implicitly derive stable targetbackground relationships.<br>
 # Commands
-## Commands for training
+## Commands for train
 Run `trainVMDNAL.py` to perform network training in single GPU and multiple GPUs.
 
 Checkpoints and Logs will be saved to `./log/`, and the `./log/` has the following structure:
@@ -20,6 +20,16 @@ Checkpoints and Logs will be saved to `./log/`, and the `./log/` has the followi
 │    ├── PRCV2024 
 │    │    ├── VMDNAL_eopch400.pth.tar
 ```
+## Commands for test
+Run `testVMDNAL.py` to perform network inference and evaluation. 
+The PA/mIoU and PD/FA values will be saved to ./test_[current time].txt
+Network predictions will be saved to `./results/` that has the following structure:
+```
+├──./results/
+│    ├── PRCV2024
+│    │   ├── VMDNAL
+│    │   │    ├── XXX.png
+```
 # Recources
-The pre-trained models can be downlaod via [Baidu Drive](https://pan.baidu.com/s/1tVihrj5e50SbhtHITsiCSg?pwd=8mj5) (key:8mj5).
+The pre-trained models can be downlaod via [Baidu Drive](https://pan.baidu.com/s/1tVihrj5e50SbhtHITsiCSg?pwd=8mj5) (key:8mj5) and One Drive(https://1drv.ms/u/c/be18513de13ace81/IQBNdZohOEbfRLdhKKlfwNydAXqD5jp_dWpUDKYk-bpsE4A?e=ZXsliw).
 
