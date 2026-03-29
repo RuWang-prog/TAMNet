@@ -10,7 +10,23 @@ We propose a triple adaptive multiplexing network (TAMNet) for wide-area infrare
 1. We propose TAMNet featuring dedicated adaptive multiplexing strategies in feature extraction, contextual understanding, and prediction generation to achieve exceptional cross-domain generalization for WIRSTD.<br>
 2. We propose a novel attention-decoupled parallel attention residual block (PARB) module that adaptively integrates multi-branch features to maximally preserve and reinforce subtle features while effectively mitigating cross-domain feature distortion induced by attention mechanisms.<br>
 3. We propose local saliency module (LSM) as a replacement for the skip connections (SK) to handle complex background variations by explicitly modeling multi-scale context to implicitly derive stable targetbackground relationships.<br>
-
+# Datasets
+We used the PRCV2024 for both training and test. Please place the dataset to the folder `./datasets/`. 
+Our project has the following structure:
+```
+├──./datasets/
+│    ├── PRCV2024
+│    │    ├── images
+│    │    │    ├── XXX.png
+│    │    │    ├── ...
+│    │    ├── masks
+│    │    │    ├── xxx.png
+│    │    │    ├── ...
+│    │    ├── img_idx
+│    │    │    ├── train_PRCV2024.txt
+│    │    │    ├── test_PRCV2024.txt
+│    │    │    ├── validation_PRCV2024.txt
+```
 # Commands
 ## Commands for train
 Run `trainVMDNAL.py` to perform network training in single GPU and multiple GPUs.
