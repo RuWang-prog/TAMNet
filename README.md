@@ -16,7 +16,7 @@ Run `trainVMDNAL.py` to perform network training in single GPU and multiple GPUs
 
 Checkpoints and Logs will be saved to `./log/`, and the `./log/` has the following structure:
 
-├──./log/<br> 
+├──tree ./log/<br> 
 │    ├── PRCV2024<br> 
 │    │    ├── VMDNAL_eopch400.pth.tar<br>
 # Recources
